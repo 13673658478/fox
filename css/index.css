@@ -1,0 +1,532 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.box{
+	width: 100%;
+}
+ul li{
+	list-style: none;
+	display: inline-block;
+}
+header{
+	width: 100%;
+	background: black;
+	position: relative;
+}
+nav{
+	width: 1200px;
+	height: 80px;
+	margin: 0 auto;
+	
+}
+nav ul li{
+	color: white;
+	margin-right: 30px;
+	line-height: 80px;
+	float: left;
+	font-size: 20px
+}
+.tuling{
+	margin-right: 5px;
+	width: 35px;
+	height: 27px;
+	background: url(../img/spr-v2.png);
+}
+.aside-div:hover{
+	background-color: #DCDCDC;
+}
+.logo{
+	position: relative;
+	z-index: 99;
+	width: 200px;
+	height: 98px;
+	background-position: 0px -28px;
+	float: left;
+}
+.tuling1{
+	background-position: 0px 0px;
+	margin-top: 30px;
+}
+.tuling2{
+	margin-left: 10px;
+	background-position: -40px 0px;
+	margin-top:30px ;
+}
+.nav-li-img{
+	width: 80px;
+	height: 80px;
+	background-position: 0px -165px;
+	margin-right: 0;
+}
+.nav-li-img img{
+	width: 45px;
+	height: 45px;
+	margin-top: 20px;
+	margin-left: 13px;
+}
+.ul-none{
+	width: 100%;
+	height: 300px;
+	position: absolute;
+	top: 70px;
+	left: 0;
+	z-index: 99;
+	display: none;
+	background: rgba( 28,20,20,0.6);
+
+}
+.ul-nav:hover .ul-none{
+	display: block;
+}
+.ul-none ul{
+	display: inline-block;
+	vertical-align: top;
+}
+.ul-none .mar-l{
+	margin-left: 280px;
+}
+.ul-none li{
+	display: block;
+	line-height: 40px;
+	float: none;
+	font-size: 16px;
+	text-align: center;
+}
+.ul-none .tuling-red{
+	float: left;
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	background-position: -107px 0px;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+.ul-none .tuling-green{
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	background-position: -129px 0px;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+
+.ul-none .dis{
+	text-align: left;
+	display: inline-block;
+}
+.enter{
+	margin-top: 15px;
+	width: 250px;
+	height: 60;
+	float: right;
+	color: white;
+	font-size: 14px;
+	line-height: 25px;
+	position: relative;
+}
+.enter p{
+	font-size: 10px;
+	color: gainsboro;
+	
+}
+.enter-none{
+	width: 300px;
+	height: 100px;
+	position: absolute;
+	top: 55px;
+	left: -50px;
+	z-index: 99;
+	background: rgba( 28,30,28,.7);
+	display: none;
+	text-indent: 5px;
+	font-size: 12px;
+}
+.my{
+	position: absolute;
+	bottom: 0;
+	background: rgba(10,10,5,.7);
+	color: #DCDCDC;
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	font-size: 14px;
+}
+.enter:hover .enter-none{
+	display: block;
+}
+.img{
+	width: 100%;
+	height: 400px;
+	background: url(../img/pic-back-v27.jpg) no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+.button-lf{
+	width: 150px;
+	height: 40px;
+	position: absolute;
+	bottom: 50px;
+	left: 350px;
+	background: rgba(10,10,5,.8);
+	border: 2px solid #BA882A;
+	color: #BA882A;
+}
+.button-rig{
+	width: 350px;
+	height: 50px;
+	color: #BA882A;
+	font-size: 14px;
+	position: absolute;
+	bottom: 30px;
+	right: 250px;
+	
+}
+.button-rig button{
+	width: 120px;
+	height: 30px;
+	background: rgba(10,10,5,.8);
+	border: 2px solid #BA882A;
+	color: #BA882A;
+}
+.bo-head{
+	width: 100%;
+	height: 45px;
+}
+.bo-head li{
+	color: black;
+	font-size: 20px;
+	line-height: 45px;
+	margin-right: 50px;
+	margin-left: 5px;
+	float: none;
+}
+.bo-head li:hover{
+	color: #BA882A;
+	border-bottom: 3px solid  #BA882A;
+}
+.body{
+	width: 100%;
+}
+.center{
+	width: 1200px;
+	margin: 0 auto;
+}
+article{
+	margin-top: 10px;
+	width: 70%;
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+}
+.cen-img{
+	width: 100%;
+	height: 350px;
+	background: url(../img/6a4e427c51b4a92035c66ed8d2a68764.jpg) no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+.cen-img-ul{
+	width: 100%;
+	height: 40px;
+	background-color: black;
+	color: #DCDCDC;
+	font-size: 14px;
+	line-height: 40px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.cen-img-ul ul li{
+	margin-right: 35px;
+	margin-left: 5px;
+	
+}
+.cen-img img{
+	width: 100%;
+	height: 315px;
+	display: none;
+	position: absolute;
+	bottom: 35px;
+	left: 0;
+}
+.cen-img-ul ul li:hover{
+	color: #BA882A;
+}
+li:hover img{
+	display: block;
+}
+aside{
+	margin-top: 10px;
+	width: 29%;
+	display: inline-block;
+	vertical-align: top;
+}
+aside .bo-head li{
+	margin-right: 30px;
+	font-size: 18px;
+}
+.aside-img{
+	width: 100%;
+	height: 120px;
+	background: url(../img/bg-download.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.aside-div{
+	width: 32%;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 4px;
+	font-size: 14px;
+	background: rgba(230,230,230,.5);
+}
+.aside-div .tu{
+	width: 25px;
+	height: 26px;
+	margin-top: 15px;
+	background-position: -201px 0px;
+}
+.aside-div .tu-2{
+	background-position: -232px 0px;
+}
+.aside-div .tu-3{
+	background-position: -261px 0px;
+}
+.aside-div .tu-4{
+	background-position: -292px 0px;
+}
+.aside-div .tu-5{
+	background-position: -324px 0px;
+}
+.aside-div .tu-6{
+	background-position: -354px 0px;
+}
+.aside-div .tu-7{
+	background-position: -381px 0px;
+}
+.aside-div .tu-8{
+	background-position: -412px 0px;
+}
+.aside-div .tu-9{
+	background-position: -443px 0px;
+}
+.aside-div .tu-10{
+	background-position: -471px 0px;
+}
+.aside-div .tu-11{
+	background-position: -501px 0px;
+}
+.aside-div .tu-12{
+	background-position: -560px 0px;
+}
+.dad-box{
+	width: 100%;
+	height: 600px;
+	position: relative;
+}
+
+.div-tuwen{
+	margin-top: 5px;
+	width: 100%;
+	height: 105px;
+	background: url(../img/pic-news10.jpg) no-repeat;
+	background-size: 25% 100%;
+	padding-left: 35%;
+	font-size: 25px;
+}
+.tuwen1{
+	background: url(../img/pic-news11.jpg) no-repeat;
+	background-size: 25% 100%;
+}
+.tuwen2{
+	background: url(../img/pic-news3.jpg) no-repeat;
+	background-size: 25% 100%;
+}
+.tuwen3{
+	background: url(../img/pic-news6.jpg) no-repeat;
+	background-size: 25% 100%;
+}
+#article,#aside{
+	position: relative;
+}
+.section{
+	width: 100%;
+	height: 500px;
+	background-color: white;
+	position: absolute;
+	left: 0;
+	top: 40px;
+	display: none;
+}
+li:hover .section{
+	display: block;
+}
+.section .ul li{
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	font-size: 16px;
+	margin: 2px 0px;
+	float: left;
+}
+.ul li:hover{
+	border-bottom: none;
+}
+.ul li span{
+	margin-right: 20px;
+	color: gray;
+	display: block;
+	float: right;
+}
+button{
+	width: 50px;
+	height: 25px;
+	background-color: #DCDCDC;
+	border: none;
+	float: left;
+	margin: 5px;
+}
+.ul li:hover button{
+	background-color: #BA882A;
+	color: white;
+}
+.zixun{
+	width: 70%;
+	height: 40px;
+	background-color: gainsboro;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	float: left;
+	text-align: center;
+	line-height: 40px;
+	font-size: 16px;
+}
+.section2{
+	width: 100%;
+	height: 500px;
+	background-color: white;
+	position: absolute;
+	top: 40px;
+	right: 0px;
+	display: none;
+}
+li:hover .section2{
+	display: block;
+}
+.aside-img2{
+	margin-top: 10px;
+	background: url(../img/0_015.jpg);
+}
+.aside-img3{
+	background: url(../img/Kayn.jpg);
+}
+.aside2-img{
+	margin-top: 10px;
+	width: 49%;
+	height: 65px;
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+}
+.aside2-img img{
+	width: 100%;
+	height: 100%;
+}
+
+.zhezhaoceng{
+	width: 100%;
+	height: 100%;
+	background: rgba(11,4,8,0.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	color: #BA882A;
+	line-height: 65px;
+	text-align: center;
+}
+.aside2-img:hover .zhezhaoceng{
+	display: block;
+}
+.section-last{
+	margin-top: 10px;
+	height: 230px;
+	width: 100%;
+	position: relative;
+}
+.section3{
+	margin-top: 10px;
+	width: 100%;
+	height: 180px;
+	background-color: white;
+	position: absolute;
+	top: 40px;
+	right: 0px;
+	display: none;
+}
+li:hover .section3{
+	display: block;
+}
+.section-block{
+	display: block;
+}
+.zhezhaoceng2{
+	width: 100%;
+	height: 100%;
+	background: rgba(11,4,8,0.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	color: #BA882A;
+	line-height: 110px;
+	text-align: center;
+}
+figure:hover .zhezhaoceng2{
+	display: block;
+}
+figure{
+	margin-top: 10px;
+	margin-right: 2px;
+	width: 16%;
+	height: 170px;
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+}
+figure img{
+	width: 100%;
+	height: 70%;
+}
+.figure{
+	width: 24%;
+	margin-right: 5px;
+	position: relative;
+}
+figcaption{
+	font-size: 12px;
+	text-indent: 3px;
+	line-height: 20px;
+}
+footer{
+	margin-top: 10px;
+	width: 100%;
+	height: 180px;
+	background-color: #000000;
+	color: white;
+	font-size: 14px;
+}
+.foot{
+	width: 65%;
+	height: 100%;
+	float: right;
+	text-align: left;
+}
+.foot span:hover{
+	color: #BA882A;
+}
+.foot p:hover{
+	color: #BA882A;
+}
